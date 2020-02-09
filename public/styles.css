@@ -1,0 +1,108 @@
+html, body {
+    font-family: 'Segoe UI', sans-serif !important;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background: url("bg.jpg");
+    height: 100vh;
+    padding-top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    margin: 12px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ul.list_info {
+    background:rgba(0,0,0,0.6);
+    padding:15px;
+    border:1px solid white;
+    border-radius:5px;
+}
+
+ul.list_info li {
+    color: #f3f3f3;
+    font-weight: 400;
+}
+
+.box {
+    border: 3px solid white;
+    padding: 15px;
+    width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: white;
+}
+
+.box a {
+    display: block;
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+}
+
+.box p {
+    margin: 0;
+}
+
+.box .lead {
+    font-size: 17px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.box form {
+    text-align: right;
+}
+
+.box form input {
+    width: 100%;
+    padding: 6px 9px;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.box form button {
+    background-color: #2525ff;
+    padding: 5px 9px;
+    border: 1px solid #ccc;
+    color: white;
+    font-weight: bold;
+}
+
+.select {
+    margin-top: 10px;
+}
+
+.select button {
+    background-color: white;
+    padding: 5px 8px;
+    border: 1px solid black;
+    margin-right: 3px;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.select button.active {
+    background-color: orange;
+}
+
+.select button:hover {
+    background: gray;
+    color: white;
+}
